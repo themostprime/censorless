@@ -46,24 +46,3 @@ function handleText(textNode) {
   textNode.nodeValue = v;
   return v;
 }
-
-// var tests = [
-//   'f***',
-//   'F***',
-//   'F**K',
-//   'f***ing',
-//   'F*CKED',
-//   'F**KER',
-//   'fuc*ed',
-//   'fu**in',
-//   'motherf***er',
-//   'MOTHERF**KER',
-//   'I thought it meant "For the F*****g Yes."',
-
-//   'Fracking',
-//   'Fickle',
-// ];
-
-// tests.forEach(function(fuck) {
-//   console.log(handleText(fuck))
-// })
