@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Censorless",
+	"version": "1.0",
+	"description": "It's okay, bro. You can curse on the Internet",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
